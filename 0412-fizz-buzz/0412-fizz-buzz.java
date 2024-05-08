@@ -9,9 +9,9 @@ class Solution {
                 answer.add("Fizz");
             } else if (i % 5 == 0){
                 answer.add("Buzz");
-            } else {
+            } else 
                 answer.add(Integer.toString(i));
-            }
+            
         }
 
         return answer;
